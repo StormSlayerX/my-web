@@ -1,0 +1,179 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html,body{margin: 0;}
+*{-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+
+.col-lg-12{width: 100%;}
+.col-lg-11{width: 91.66%;}
+.col-lg-10{width: 83.33%;}
+.col-lg-9{width: 75%;}
+.col-lg-8{width:66.66% ;}
+.col-lg-7{width: 58.33%;}
+.col-lg-6{width: 50%;}
+.col-lg-5{width: 41.66%;}
+.col-lg-4{width: 33.33%;}
+.col-lg-3{width: 25%;}
+.col-lg-2{width: 16.66%;}
+.col-lg-1{width: 8.33%;}
+
+.jcs{-webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;}
+.jcc{-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+.jce{-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;}
+.jca{-ms-flex-pack: distribute;justify-content: space-around;}
+.jcb{-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
+
+.container
+{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.container-fluid
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{display: -webkit-box;display: -ms-flexbox;display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+/*  til here all the lines are mandatory */
+
+/*------------------------position------------------------------*/
+.card-relative{position: relative;}
+.card-over
+{   
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+}
+.card-over1{
+    left: 310px;
+    top: 140px;
+   position: absolute;
+   text-align: center;
+}
+.card-over2{
+    text-align: center;
+    left: 305px;
+    top: 240px;
+    position: absolute;
+}
+.card-over3{
+    text-align: center;
+    left: 290px;
+    top: 340px;
+    position: absolute;
+  
+}
+.card-over a{color: white;display: -webkit-box;display: -ms-flexbox;display: flex;}
+/* -------------------------------------------------------------- */
+
+
+.img-fluid{
+    width: 100%;
+    display: block;
+    height:925px;
+    background-color: black;
+}
+.logo{
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+.radius-menu{
+    width: 98%;
+    height: 75px;
+    color: #202020;
+    text-decoration: none;
+    background-color: #d3d3d3;
+    border-radius: 25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    left: 1%;
+    position: absolute;
+    top: 20px;
+    z-index: 9999; 
+    position: fixed;
+}
+.menu-align{
+    padding: 0;
+    padding-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.background{background-color: black;}
+
+/* ----------------------Menu----------------------------- */
+.nav-bar{
+    
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.nav-bar li{display: inline-block;}
+.nav-bar ul{text-align: right}
+.nav-bar li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 13px 50px;
+    -webkit-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+    transition:all 0.6s ease;
+
+}
+.nav-bar li a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(213, 8, 8);
+    border-radius: 27px;
+    -webkit-box-shadow: 2px 3px 6px rgb(102, 0, 0);
+            box-shadow: 2px 3px 6px rgb(102, 0, 0);
+}
+
+/* --------------------------------------------------*/
+.body-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    position: relative;
+}
+
+.card-over h2{margin: 5px;}
+.card-over h5{padding-left: 4px;}
+.card-over span{color: crimson;}
+
+
+.dropShadow-menu-bar{
+    /* border: 1px solid; */
+    padding: 10px;
+    -webkit-box-shadow: 5px 10px 34px rgb(126, 126, 126);
+            box-shadow: 5px 10px 34px rgb(126, 126, 126);
+}
+
+
+.active{ color: rgb(255, 255, 255);
+    background: rgb(213, 8, 8);
+    border-radius: 27px;
+    -webkit-box-shadow: 2px 3px 6px rgb(102, 0, 0);
+            box-shadow: 2px 3px 6px rgb(102, 0, 0);
+}
+.edu-img{padding-top: 1px;}
+
+.col-lg-6 iframe{border-radius: 25px;padding: 10px;}
+.body-text img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
